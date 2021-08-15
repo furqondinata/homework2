@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 90px;
+    /* background: #E5E5E5; */
+}
+
+.profile>.top {
+    margin-top: 40px;
+}
+
+.profile>h2 {
+    width: 506px;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 4px;
+}
+
+.profile>p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+.gambar>img {
+    border-radius: 80px;
+    width: 230px;
+    height: 220px;
+    background-color: rgb(124, 202, 230);
+    margin-top: 9px;
+    margin-left: -110px;
+    border: 1px solid #EDF7FA;
+    /* padding-right: 100px; */
+}
+
+.wrapper_contact {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    /* background-color: rgb(124, 202, 230); */
+    background-color: #EDF7FA;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    padding-left: 65px;
+}
+
+.education {
+    width: 600px;
+}
+
+.education>ul {
+    margin-left: 15px;
+}
+
+.education>ul>li {
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.online_shop>img {
+    width: 300px;
+    margin-bottom: 40px;
+
+}
+
+.ppdb_online>img {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.pos>img {
+    width: 300px;
+}
+
+.wrapper_experience {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    margin-left: 155px;
+    margin-top: 40px;
+    /* background-color: #E5E5E5; */
+}
+
+.online_shop {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.ppdb_online {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.ppdb_online>span {
+    margin-left: 15px;
+}
+
+.pos {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.pos>span {
+    margin-left: 15px;
+}
+
+.online_shop>span {
+    margin-left: 15px;
+}
+
+.tanggal>p {
+
+    display: inline-block;
+    flex-direction: row;
+    color: #8695A4;
+}
+
+.tanggal>.tahun {
+    border: 1px solid black;
+    Width: 42px;
+    Height: 20px;
+    border-radius: 20px;
+    background-color: #142850;
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.warna {
+    color: #8695A4;
+}
+
+.deskripsi {
+    margin-top: 15px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #136223;
+}
+
+.title1 {
+    color: #136223;
+    padding-top: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    background-color: #EDF7FA;
+    /* background-color: rgb(124, 202, 300); */
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+footer>a {
+    text-decoration: black;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 13px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    font-size: 10px;
+    /* padding-bottom: 40px; */
+}
